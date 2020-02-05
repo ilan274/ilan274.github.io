@@ -1,6 +1,5 @@
 #/bin/bash
-# Eu sou Tryber e...
-
+# I will work hard to become a successful full stack developer!
 
 PHRASE="Shell Script with variables is incredible!"
 echo $PHRASE
