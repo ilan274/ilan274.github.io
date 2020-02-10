@@ -45,6 +45,14 @@ ul {
 
 #profile-div {
 	text-align: center;
+	width: 100% ;
+  max-width: 100% ;
+  height: auto ;
+}
+
+#profile-div img {
+	width: 18%;
+	border-radius: 50%;
 }
 
 .about-me p {
