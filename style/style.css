@@ -1,0 +1,63 @@
+body {
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 5%;
+}
+
+h2 {
+	text-align: left;
+	text-transform: uppercase;
+	color: #4CAF50;
+	text-indent: 2%;
+}
+
+p {
+	text-indent: 1%;
+	text-align: justify;
+	letter-spacing: 2px;
+	font-size: 110%;
+}
+
+a {
+	text-decoration: none;
+	font-weight: 700;
+	color: blue;
+}
+
+ul {
+	list-style-type: square;
+	list-style-position: outside;
+	list-style-image: none;
+	}
+
+.name {
+	text-align: center;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 120%;
+	word-spacing: 9%;
+	color: #000000;
+	font-weight: 540;
+	text-decoration: none;
+	font-style: italic;
+	font-variant: normal;
+	text-transform: none;
+}
+
+#profile-div {
+	text-align: center;
+}
+
+.about-me p {
+	padding: 4%;
+	border: 2px solid rgba(0, 0, 0, 0.573);
+	text-indent: 2%;
+	text-align: justify;
+	letter-spacing: 2px;
+	font-size: 110%;
+}
+
+#footer div {
+  display: block;
+  float: left;
+  width: 30%;
+}
