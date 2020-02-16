@@ -5,4 +5,4 @@ let a = 11;
 let b = 15;
 let c = 13;
 
-a % 2 == 0 || b % 2 == 0 || c % 2 == 0 ? console.log(true) : console.log(false)
+a % 2 == 0 || b % 2 == 0 || c % 2 == 0 ? console.log(true) : console.log(false);
