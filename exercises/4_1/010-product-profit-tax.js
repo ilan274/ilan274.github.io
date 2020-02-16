@@ -10,7 +10,5 @@ if (product_base < 0.01 || product_sale < 0.01) {
   profit = "Please enter numbers above 0."
 }
 
-let result = document.getElementById("result").innerHTML = profit;
-
 /* To interact with .html file, just create an id called 'result' (no quotes) and remove the double slash bellow */
-// let result = document.getElementById("result").innerHTML = move;
+// let result = document.getElementById("result").innerHTML = profit;
