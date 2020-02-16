@@ -32,4 +32,4 @@ switch (lower) {
 }
 
 /* To interact with .html file, just create an id called 'direction' (no quotes) and remove the double slash bellow */
-// let direction = document.getElementById("direction").innerHTML = move
+// let direction = document.getElementById("direction").innerHTML = move;
