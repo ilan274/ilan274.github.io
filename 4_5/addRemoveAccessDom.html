@@ -102,6 +102,14 @@ Now that you have created a lot, let's make some changes and removals:
       document.getElementsByClassName("main-content")[0].appendChild(var3)
     }
     divAndAppend()
+
+    // Fourth exercise
+    function addPTagInsideDiv() {
+      let pTag = document.createElement("p");
+      document.getElementsByClassName("center-content")[0].appendChild(pTag)
+      document.querySelector(".center-content p").innerHTML = "\"Adding the p tag as a child of the div created in step 3 and add some text\" worked like a charm :)"
+    }
+    addPTagInsideDiv()
   
 
   </script>
