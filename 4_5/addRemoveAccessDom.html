@@ -97,8 +97,9 @@ Now that you have created a lot, let's make some changes and removals:
 
     // Third exercise
     let var3 = document.createElement("div");
-      var3.className = 'center-content';
-      document.querySelector('div.main-content').appendChild(var3);
+    var3.className = 'center-content';
+    document.getElementsByClassName("main-content")[0].appendChild(var3)
+    
 
 
   </script>
