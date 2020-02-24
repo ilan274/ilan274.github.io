@@ -136,6 +136,18 @@ Now that you have created a lot, let's make some changes and removals:
     }
     imgWithSrc()
 
+    // Eighth exercise
+    function ulInsideDiv() {
+      let createUl = document.createElement("ul");
+      document.getElementsByClassName("right-content")[0].appendChild(createUl)
+      valores = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis', 'Sete', 'Oito', 'Nove', 'Dez'];
+
+      for (let i = 0; i < 10; i++) {
+        document.getElementsByClassName("right-content")[0].firstChild.appendChild(document.createElement("li")).innerHTML = valores[i]
+      }
+    }
+    ulInsideDiv()
+
 
   </script>
 </body>
