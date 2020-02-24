@@ -127,6 +127,15 @@ Now that you have created a lot, let's make some changes and removals:
     }
     rightDiv()
 
+    // Seventh exercise
+    function imgWithSrc() {
+      let createImg = document.createElement("img");
+      createImg.src = "https://picsum.photos/200";
+      createImg.className = "small-image";
+      document.getElementsByClassName("main-content")[0].children[1].appendChild(createImg)
+    }
+    imgWithSrc()
+
 
   </script>
 </body>
