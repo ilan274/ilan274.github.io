@@ -83,15 +83,15 @@ Now that you have created a lot, let's make some changes and removals:
     function createAndChangeH1() {
       const getBodyTag = document.getElementsByTagName("body")[0];
       const createH1 = document.createElement("h1");
-      getBodyTag.insertAdjacentElement('afterbegin', createH1)
-      document.getElementsByTagName("body")[0].firstChild.innerHTML = "Exercício 4.5 - JavaScript DOM"
+      getBodyTag.insertAdjacentElement('afterbegin', createH1);
+      document.getElementsByTagName("body")[0].firstChild.innerHTML = "Exercício 4.5 - JavaScript DOM";
     }
     createAndChangeH1()
 
     // Second exercise
     function createDivAndClass() {
-      document.getElementsByTagName("script")[0].insertAdjacentElement('beforebegin', document.createElement("div"))
-      document.getElementsByTagName("div")[0].className = "main-content"
+      document.getElementsByTagName("script")[0].insertAdjacentElement('beforebegin', document.createElement("div"));
+      document.getElementsByTagName("div")[0].className = "main-content";
     }
     createDivAndClass()
 
@@ -99,14 +99,14 @@ Now that you have created a lot, let's make some changes and removals:
     function divAndAppend() {
       let var3 = document.createElement("div");
       var3.className = 'center-content';
-      document.getElementsByClassName("main-content")[0].appendChild(var3)
+      document.getElementsByClassName("main-content")[0].appendChild(var3);
     }
     divAndAppend()
 
     // Fourth exercise
     function addPTagInsideDiv() {
       let pTag = document.createElement("p");
-      document.getElementsByClassName("center-content")[0].appendChild(pTag)
+      document.getElementsByClassName("center-content")[0].appendChild(pTag);
       document.querySelector(".center-content p").innerHTML = "\"Adding the p tag as a child of the div created in step 3 and add some text\" worked like a charm :)"
     }
     addPTagInsideDiv()
@@ -115,7 +115,7 @@ Now that you have created a lot, let's make some changes and removals:
     function leftDiv() {
       let leftDiv = document.createElement("div");
       leftDiv.className = "left-content";
-      document.getElementsByClassName("main-content")[0].appendChild(leftDiv)
+      document.getElementsByClassName("main-content")[0].appendChild(leftDiv);
     }
     leftDiv()
 
@@ -123,7 +123,7 @@ Now that you have created a lot, let's make some changes and removals:
     function rightDiv() {
       let rightDiv = document.createElement("div");
       rightDiv.className = "right-content";
-      document.getElementsByClassName("main-content")[0].appendChild(rightDiv)
+      document.getElementsByClassName("main-content")[0].appendChild(rightDiv);
     }
     rightDiv()
 
@@ -132,21 +132,30 @@ Now that you have created a lot, let's make some changes and removals:
       let createImg = document.createElement("img");
       createImg.src = "https://picsum.photos/200";
       createImg.className = "small-image";
-      document.getElementsByClassName("main-content")[0].children[1].appendChild(createImg)
+      document.getElementsByClassName("main-content")[0].children[1].appendChild(createImg);
     }
     imgWithSrc()
 
     // Eighth exercise
     function ulInsideDiv() {
       let createUl = document.createElement("ul");
-      document.getElementsByClassName("right-content")[0].appendChild(createUl)
+      document.getElementsByClassName("right-content")[0].appendChild(createUl);
       valores = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis', 'Sete', 'Oito', 'Nove', 'Dez'];
 
       for (let i = 0; i < 10; i++) {
-        document.getElementsByClassName("right-content")[0].firstChild.appendChild(document.createElement("li")).innerHTML = valores[i]
+        document.getElementsByClassName("right-content")[0].firstChild.appendChild(document.createElement("li")).innerHTML = valores[i];
       }
     }
     ulInsideDiv()
+
+    // Ninth exercise
+    function h3Tags() {
+      let getDiv = document.getElementsByClassName("main-content")[0];
+      for (let i = 0; i < 3; i++) {
+        getDiv.appendChild(document.createElement("h3"));
+      }
+    }
+    h3Tags()
 
 
   </script>
