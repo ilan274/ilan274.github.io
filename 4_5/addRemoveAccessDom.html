@@ -1,12 +1,12 @@
-<!-- 1) Add the h1 tag with the text Exercise 4.5 - JavaScript DOM as a child of the body tag;
-2) Add the div tag with the main-content class as a child of the body tag;
-3) Add the div tag with the center-content class as a child of the div tag created in step 2;
-4) Add the p tag as a child of the div created in step 3 and add some text;
-5) Add the div tag with the left-content class as a child of the div tag created in step 2;
-6) Add the div tag with the right-content class as a child of the div tag created in step 2;
-7) Add an image with src set to the https://picsum.photos/200 value and small-image class. This element must be a child of the div created in step 5;
-8) Add an unordered list with the values ​​from 1 to 10 in full, that is, one, two, three, ... as list values. This list must be a child of the div created in step 6;
-9) Add 3 h3 tags, all children of the div created in step 2.
+<!-- 
+
+
+
+
+
+
+
+.
 
 Now that you have created a lot, let's make some changes and removals:
 1) Add the title class to the created h1 tag;
@@ -79,7 +79,7 @@ Now that you have created a lot, let's make some changes and removals:
 
   <script>
     /* Even though the exercises doesn't ask, I'll create a function for each one since I'm doing all the exercises in one single file.*/
-    // First exercise
+    // 1.1) Add the h1 tag with the text Exercise 4.5 - JavaScript DOM as a child of the body tag
     function createAndChangeH1() {
       const getBodyTag = document.getElementsByTagName("body")[0];
       const createH1 = document.createElement("h1");
@@ -88,14 +88,14 @@ Now that you have created a lot, let's make some changes and removals:
     }
     createAndChangeH1()
 
-    // Second exercise
+    // 1.2) Add the div tag with the main-content class as a child of the body tag
     function createDivAndClass() {
       document.getElementsByTagName("script")[0].insertAdjacentElement('beforebegin', document.createElement("div"));
       document.getElementsByTagName("div")[0].className = "main-content";
     }
     createDivAndClass()
 
-    // Third exercise
+    // 1.3) Add the div tag with the center-content class as a child of the div tag created in step 2
     function divAndAppend() {
       let var3 = document.createElement("div");
       var3.className = 'center-content';
@@ -103,7 +103,7 @@ Now that you have created a lot, let's make some changes and removals:
     }
     divAndAppend()
 
-    // Fourth exercise
+    // 1.4) Add the p tag as a child of the div created in step 3 and add some text
     function addPTagInsideDiv() {
       let pTag = document.createElement("p");
       document.getElementsByClassName("center-content")[0].appendChild(pTag);
@@ -111,7 +111,7 @@ Now that you have created a lot, let's make some changes and removals:
     }
     addPTagInsideDiv()
 
-    // Fifth exercise
+    // 1.5) Add the div tag with the left-content class as a child of the div tag created in step 2
     function leftDiv() {
       let leftDiv = document.createElement("div");
       leftDiv.className = "left-content";
@@ -119,7 +119,7 @@ Now that you have created a lot, let's make some changes and removals:
     }
     leftDiv()
 
-    // Sixth exercise
+    // 1.6) Add the div tag with the right-content class as a child of the div tag created in step 2
     function rightDiv() {
       let rightDiv = document.createElement("div");
       rightDiv.className = "right-content";
@@ -127,7 +127,7 @@ Now that you have created a lot, let's make some changes and removals:
     }
     rightDiv()
 
-    // Seventh exercise
+    // 1.7) Add an image with src set to the https://picsum.photos/200 value and small-image class. This element must be a child of the div created in step 5
     function imgWithSrc() {
       let createImg = document.createElement("img");
       createImg.src = "https://picsum.photos/200";
@@ -136,7 +136,7 @@ Now that you have created a lot, let's make some changes and removals:
     }
     imgWithSrc()
 
-    // Eighth exercise
+    // 1.8) Add an unordered list with the values ​​from 1 to 10 in full, that is, one, two, three, ... as list values. This list must be a child of the div created in step 6
     function ulInsideDiv() {
       let createUl = document.createElement("ul");
       document.getElementsByClassName("right-content")[0].appendChild(createUl);
@@ -148,7 +148,7 @@ Now that you have created a lot, let's make some changes and removals:
     }
     ulInsideDiv()
 
-    // Ninth exercise
+    // 1.9) Add 3 h3 tags, all children of the div created in step 2
     function h3Tags() {
       let getDiv = document.getElementsByClassName("main-content")[0];
       for (let i = 0; i < 3; i++) {
