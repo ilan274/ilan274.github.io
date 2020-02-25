@@ -164,6 +164,15 @@ Now that you have created a lot, let's make some changes and removals:
     }
     h1TagClass()
 
+    // 2.2) Add "description" class to the 3 h3 tags created;
+    function descriptionH3() {
+      for (let i = 0; i < 3; i++) {
+        document.getElementsByTagName("h3")[i].className = "description";
+      }
+    }
+    descriptionH3()
+
+
   </script>
 </body>
 
