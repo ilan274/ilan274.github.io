@@ -157,20 +157,28 @@ Now that you have created a lot, let's make some changes and removals:
     }
     h3Tags()
 
-    // 2.1) Add class "title" to the h1 tag;
+    // 2.1) Add class "title" to the h1 tag
     function h1TagClass() {
       let h1Grep = document.getElementsByTagName("h1")[0];
       h1Grep.className = "title";
     }
     h1TagClass()
 
-    // 2.2) Add "description" class to the 3 h3 tags created;
+    // 2.2) Add "description" class to the 3 h3 tags created
     function descriptionH3() {
       for (let i = 0; i < 3; i++) {
         document.getElementsByTagName("h3")[i].className = "description";
       }
     }
     descriptionH3()
+
+    // 2.3) Remove the div created in step 5 (the one with the left-content class). Use the .removeChild () function
+    function removeLeftContentDiv() {
+    let mainDiv = document.getElementsByClassName("main-content")[0];
+    let insideDiv = document.getElementsByClassName("left-content")[0];
+    let removedDiv = mainDiv.removeChild(insideDiv);
+    }
+    removeLeftContentDiv()
 
 
   </script>
