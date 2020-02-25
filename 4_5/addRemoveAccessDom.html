@@ -1,5 +1,5 @@
 
-<!-- 5) Change the background color of the parent element of the div created in step 3 (the one that has the center-content class) to green;
+<!-- 
 6) Remove the last two elements (nine and ten) from the list created in step 8. -->
 <!DOCTYPE html>
 <html>
@@ -172,6 +172,13 @@
 "auto"
     }
     centerDiv()
+
+    // 2.5) Change the background color of the parent element of the div created in step 3 (the one that has the center-content class) to green
+    function changeToGreen() {
+      let getClass = document.getElementsByClassName("center-content")[0];
+      getClass.style.backgroundColor = "green";
+    }
+    changeToGreen()
 
 
   </script>
