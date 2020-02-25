@@ -157,6 +157,12 @@ Now that you have created a lot, let's make some changes and removals:
     }
     h3Tags()
 
+    // 2.1) Add class "title" to the h1 tag;
+    function h1TagClass() {
+      let h1Grep = document.getElementsByTagName("h1")[0];
+      h1Grep.className = "title";
+    }
+    h1TagClass()
 
   </script>
 </body>
