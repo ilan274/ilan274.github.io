@@ -1,0 +1,82 @@
+<!-- Imagine that you are the person responsible for developing a page that will serve as a reader of written content.
+People should have the power to change: Background color of the screen; Text color; Font size; Spacing between lines of text; Font type (Font family). -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ilan274 preferences / localStorage</title>
+</head>
+
+<body>
+  <section class="main-section">
+    <article>
+      <h1>Lorem Ipsum title</h1>
+      <p>Suspendisse potenti. Ut tristique felis eu nisi consectetur, sed dapibus turpis feugiat. Cras euismod maximus
+        augue, et tincidunt tellus imperdiet vel. Vestibulum blandit felis ac massa feugiat maximus. Praesent nec
+        lacinia ipsum. Morbi vitae porttitor nunc. In sollicitudin, ante id condimentum pellentesque, libero sapien
+        elementum sapien, eu auctor sem justo sit amet dolor. Vestibulum ante ipsum primis in faucibus orci luctus et
+        ultrices posuere cubilia Curae; Nunc id sodales ante. Quisque sagittis venenatis aliquet. Aliquam velit ante,
+        pretium et iaculis vel, sollicitudin quis ipsum. Morbi volutpat feugiat tellus at tristique. Fusce risus sapien,
+        fermentum at aliquam quis, congue sed ex. Vivamus eu sapien mi. Nunc in condimentum orci. Curabitur erat lorem,
+        lacinia et odio vel, fringilla convallis dolor.
+      </p>
+      <p>Cras velit risus, sagittis in magna ut, gravida hendrerit augue. Suspendisse lacinia vel tellus ut hendrerit.
+        Fusce sit amet risus quis tortor vestibulum placerat. Pellentesque vitae sem vel lectus lacinia imperdiet.
+        Praesent nibh magna, cursus eget rhoncus ut, porta volutpat libero. Pellentesque eget quam non mauris finibus
+        cursus sed eget orci. Nullam vel tempor mi, nec feugiat quam. Mauris sed porttitor odio. Nullam ac lacinia
+        purus, eu finibus nisi. Curabitur ut nibh arcu. Morbi elementum ligula eu turpis auctor, pretium imperdiet eros
+        accumsan. Pellentesque dignissim erat finibus consectetur venenatis. Donec sed justo sit amet tellus aliquam
+        varius. Aliquam in mi dolor. Quisque at dolor nec odio accumsan euismod sed eu leo.
+      </p>
+      <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec mollis justo
+        ut enim semper facilisis. Sed dignissim laoreet sem sit amet lobortis. Curabitur sollicitudin, justo ut maximus
+        dapibus, neque neque pharetra mi, vel aliquet magna enim at diam. Integer volutpat blandit porta. Phasellus
+        consequat, turpis quis volutpat convallis, risus nibh venenatis felis, id consectetur nisl sem nec enim. Aliquam
+        sollicitudin ligula vitae accumsan efficitur. Maecenas feugiat erat sit amet mauris rutrum finibus. Aliquam
+        maximus leo augue, a elementum quam dictum sed. Etiam nec cursus metus, a pharetra magna. Proin in mauris a sem
+        semper imperdiet id quis felis. Phasellus lacinia non lorem sed dignissim. Pellentesque ultrices, massa in
+        aliquam placerat, mauris nisl interdum augue, id tempor neque neque vel orci.
+      </p>
+      <p>Nullam iaculis mollis interdum. Aliquam eget felis commodo, venenatis risus quis, mollis justo. Phasellus
+        vehicula, turpis vitae gravida ultricies, tortor leo sagittis neque, sit amet mattis risus turpis vel elit. In
+        eu leo dui. Donec vulputate arcu odio, vel finibus justo luctus non. Nullam molestie lectus risus, vel maximus
+        sem cursus in. Morbi libero massa, consectetur id auctor ac, faucibus at massa. In viverra enim eget egestas
+        euismod. Suspendisse potenti. Aenean sed mattis odio. Orci varius natoque penatibus et magnis dis parturient
+        montes, nascetur ridiculus mus. Ut aliquam nulla at libero sollicitudin, id tincidunt nisl sagittis. Nam a felis
+        in mi placerat consequat vitae a mauris.
+      </p>
+    </article>
+  </section>
+  <p class="botoes">Background color:</p>
+<button class="bgcolor" value="green">Green</button>
+<button class="bgcolor" value="yellow">Yellow</button>
+<button class="bgcolor" value="red">Red</button>
+
+<p class="botoes">Text color:</p>
+<button class="txtcolor" value="cyan">Cyan</button>
+<button class="txtcolor" value="orange">Orange</button>
+<button class="txtcolor" value="blue">Blue</button>
+
+<p class="botoes">Font size:</p>
+<button class="fontsize" value="10px">Small</button>
+<button class="fontsize" value="20px">Medium</button>
+<button class="fontsize" value="30px">Big</button>
+
+<p class="botoes">Line spacing:</p>
+<button class="linespace" value="120%">+20%</button>
+<button class="linespace" value="140%">+40%</button>
+<button class="linespace" value="160%"">+60%</button>
+
+<p class="botoes">Font style:</p>
+<button class="fontstyle" value="Georgia">Georgia</button>
+<button class="fontstyle" value="Courier New">Courier New</button>
+<button class="fontstyle" value="Arial">Arial</button>
+</body>
+
+</html>
+
