@@ -1,0 +1,23 @@
+/* * {
+  padding: 0%;
+  margin: ;
+} */
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+img.shrimp {
+  width: 300px;
+  margin-left: 40px;
+}
+
+iframe {
+  width: 560px;
+  height: 315px;
+  margin: 20px 80px
+}
