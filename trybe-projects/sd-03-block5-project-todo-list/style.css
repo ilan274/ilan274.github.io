@@ -1,0 +1,48 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.color ,
+.selected {
+  border: black solid 1px;
+  cursor: pointer;
+  float: left;
+  height: 25px;
+  margin-left: 10px;
+  width: 25px;
+}
+
+.pixel-board-class {
+  clear: both;
+  height: 200px;
+  width: 210px;
+}
+
+.pixel {
+  border: black solid 1px;
+  cursor: pointer;
+  float: left;
+  height: 40px;
+  width: 40px;
+}
+
+#black {
+  background-color: black;
+}
+
+#red {
+  background-color: red;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#grey {
+  background-color: grey;
+}
