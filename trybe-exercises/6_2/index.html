@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script defer src="./js/jquery-3.4.1.min.js"></script>
+  <script defer src="./js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="./style/bootstrap.min.css">
+  <link rel="stylesheet" href="./style/style.css">
+  <script defer src="./js/script.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body>
+  <section class="container was-validated">
+    <form id="formulario" action="">
+      <div class="form-group">
+        <label for="nome">Nome completo:</label>
+        <input class="form-control" name="nome" id="nome" type="text" maxlength="40" />
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input required="required" class="form-control Email" type="text" name="email" id="email" type="email"
+          maxlength="50" autocomplete="off" />
+      </div>
+      <div>
+        <label for="cpf">CPF:
+          <input class="form-control" autocomplete="off" pattern="[0-9]+.[0-9]+.[0-9]+-[0-9]" type="text" name="cpf"
+            id="cpf" maxlength="14" /></label>
+      </div>
+      <div>
+        <label for="endereco">Endereço:</label>
+        <input class="form-control" type="text" maxlength="200" required="required" />
+      </div>
+      <div>
+        <label for="cidade">Cidade:
+          <input class="form-control" type="text" maxlength="28" required="required" />
+        </label>
+      </div>
+      <div>
+        <label for="estado">Estado:
+          <select class="form-control" name="estado" id="estado"></select>
+        </label>
+      </div>
+      <div class="radio-inline">
+        <label for="male">Male</label>
+        <input type="radio" name="orientation" id="male">
+        <label for="female">Female</label>
+        <input type="radio" name="orientation" id="female">
+        <label for="other">Other</label>
+        <input required type="radio" name="orientation" id="other">
+      </div>
+      <label for="resumocurriculo">Resumo do currículo<br />
+        <textarea required="required" name="resumocurriculo" id="resumocurriculo" cols="30" rows="10" maxlength="1000"
+          placeholder="Limite de 1000 caracteres"></textarea></label>
+      <div>
+        <label for="role">Cargo:
+          <input required="required" maxlength="40" name="role" id="role" type="text">
+        </label>
+      </div>
+      <div>
+        <label for="descricaocargo">Descrição do cargo:<br />
+          <textarea maxlength="500" name="descricaocargo" id="descricaocargo" cols="30" rows="10"></textarea>
+        </label>
+      </div>
+      <div>
+        <label for="data">Data:
+          <input pattern="(0[1-9]|1[0-9]|2[0-9]|3[01]).(0[1-9]|1[012]).[0-9]{4}" required="required" type="date"
+            name="data" id="data">
+        </label>
+      </div>
+      <button id="enviar" type="submit" value="submit">Enviar</button>
+      <button class="apagartudo" type="reset">Apagar tudo</button>
+    </form>
+  </section>
+</body>
+
+</html>
