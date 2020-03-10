@@ -1,4 +1,6 @@
 const getSubmitButton = document.getElementById('enviar');
+const getForm = document.querySelector('form');
+const getCpf = document.querySelector('#cpf');
 const estados = [
   'Acre',
   'Alagoas',
@@ -39,3 +41,13 @@ function addAllStates() {
   }
 }
 addAllStates();
+
+function addFormValidation() {
+  getForm.classList.add('was-validated');
+}
+
+function verifyValidations() {
+  addFormValidation();
+}
+
+getSubmitButton.addEventListener('click', verifyValidations);
