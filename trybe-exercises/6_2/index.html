@@ -22,7 +22,7 @@
   </head>
 
   <body">
-    <form class="was-validated" action="">
+    <form action="">
       <h3 class="d-flex justify-content-center" style="margin-top: 1%;">Dados pessoais</h3>
       <section class="container">
         <div class="row form-group">
@@ -44,10 +44,12 @@
           <input maxlength="50" required="required" type="email" class="form-control">
           <div class="valid-feedback">Válido (y)</div>
           <div class="invalid-feedback">Favor, insira seu e-mail corretamente.</div>
-          <div class="form-group">
-            <label for="cpf">CPF</label>
-            <input maxlength="11" required="required" class="form-control" id="cpf" type="text">
-          </div>
+        </div>
+        <div class="form-group">
+          <label for="cpf">CPF</label>
+          <input pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" maxlength="14" required="required" class="form-control" id="cpf" type="text">
+          <div class="valid-feedback">Válido (y)</div>
+          <div id="invalid-feedback" class="invalid-feedback">Favor, insira seu CPF corretamente.</div>
         </div>
         <div class="row form-group">
           <div class="col">
@@ -75,9 +77,12 @@
         <div class="form-group">
           <div>
             <label for="resumocurriculo">Resumo do currículo</label>
-            <textarea maxlength="1000" class="form-control" name="resumocurriculo" id="resumocurriculo" cols="3" rows="10"></textarea>
+            <textarea maxlength="1000" class="form-control" name="resumocurriculo" id="resumocurriculo" cols="3"
+              rows="10"></textarea>
           </div>
         </div>
+        <button class="btn btn-success" id="enviar" type="submit">Enviar</button>
+        <button class="btn btn-danger" id="reset" type="reset">Apagar tudo</button>
       </section>
     </form>
 </body>
