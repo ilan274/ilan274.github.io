@@ -62,7 +62,11 @@ section {
   animation: leftToRight 2s 1s 2 alternate;
 }
 
-.exercise-4:hover #exercise-4 {
+#exercise-4:hover {
+  animation: leftToRight 5s infinite;
+}
+
+#section-5:hover #exercise-5 {
   animation: leftToRight 5s infinite;
 }
 
