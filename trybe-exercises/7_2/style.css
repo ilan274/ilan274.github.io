@@ -62,6 +62,10 @@ section {
   animation: leftToRight 2s 1s 2 alternate;
 }
 
+.exercise-4:hover #exercise-4 {
+  animation: leftToRight 5s;
+}
+
 @keyframes leftToRight {
   from {
     margin-left: 0;
