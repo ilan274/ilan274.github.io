@@ -82,6 +82,10 @@ section {
   animation: redToYellow 4s;
 }
 
+#exercise-9 {
+  animation: multipleColors 4s infinite alternate;
+}
+
 @keyframes leftToRight {
   from {
     margin-left: 0;
@@ -109,7 +113,23 @@ section {
 @keyframes redToYellow {
   from {
     background-color: red;
-  } to {
+  }
+  to {
     background-color: yellow;
+  }
+}
+
+@keyframes multipleColors {
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: blue;
+  }
+  75% {
+    background-color: green;
+  }
+  100% {
+    background-color: red;
   }
 }
