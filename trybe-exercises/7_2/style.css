@@ -78,6 +78,10 @@ section {
   animation: boxAndBack 10s infinite;
 }
 
+#exercise-8 {
+  animation: redToYellow 4s;
+}
+
 @keyframes leftToRight {
   from {
     margin-left: 0;
@@ -99,5 +103,13 @@ section {
 @keyframes boxAndBack {
   50% {
     padding: 0 50.5%;
+  }
+}
+
+@keyframes redToYellow {
+  from {
+    background-color: red;
+  } to {
+    background-color: yellow;
   }
 }
