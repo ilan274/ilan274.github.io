@@ -118,6 +118,10 @@ section {
   animation-timing-function: ease-in-out;
 }
 
+.disappear {
+  animation: disappear 1s forwards;
+}
+
 @keyframes leftToRight {
   from {
     margin-left: 0;
@@ -163,5 +167,14 @@ section {
   }
   100% {
     background-color: red;
+  }
+}
+
+@keyframes disappear {
+  from {
+    opacity: 100;
+  }
+  to {
+    opacity: 0;
   }
 }
