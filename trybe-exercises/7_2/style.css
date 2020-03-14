@@ -86,6 +86,10 @@ section {
   animation: multipleColors 4s infinite alternate;
 }
 
+#exercise-10 {
+  -webkit-animation: boxAndBack 4s infinite, multipleColors 4s infinite;
+}
+
 @keyframes leftToRight {
   from {
     margin-left: 0;
