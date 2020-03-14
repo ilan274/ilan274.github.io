@@ -1,28 +1,28 @@
-1) Após 1 segundo do carregamento da página, faça a bola verde ir da borda esquerda para a borda direita ao longo de 3 segundos.
+1) After 1 second of loading the page, make the green ball go from the left edge to the right edge over 3 seconds.
 
-2) Após 2 segundos do carregamento da página, faça a bola verde ir da borda esquerda para a borda direita ao longo de 2 segundos. Ao final da animação, a bola deve permanecer na borda direita. Utilize o keyframe criado para o exercício número 1 para esse exercício também, ou seja, ambos os exercícios compartilharão o keyframe.
+2) After 2 seconds of loading the page, make the green ball go from the left edge to the right edge for 2 seconds. At the end of the animation, the ball must remain on the right edge. Use the keyframe created for exercise number 1 for that exercise as well, that is, both exercises will share the keyframe.
 
-3) Após 1 segundo do carregamento da página, faça a bola verde ir da borda esquerda para a borda direita e voltar ao longo de 1 segundo por trecho. Utilize o keyframe criado para o exercício número 1 para esse exercício também, ou seja, ambos os exercícios compartilharão o keyframe.
+3) After 1 second of loading the page, make the green ball go from the left edge to the right edge and go back over 1 second per stretch. Use the keyframe created for exercise number 1 for that exercise as well, that is, both exercises will share the keyframe.
 
-4) Faça a bola verde ir da borda esquerda para a borda direita enquanto o mouse estiver em cima dela. A duração do evento deve ser de 5 segundos.
+4) Make the green ball go from the left edge to the right edge while the mouse is over it. The duration of the event must be 5 seconds.
 
-5) Faça a bola verde ir da borda esquerda para a borda direita enquanto o mouse estiver dentro do elemento <section> do exercício. A duração do evento deve ser de 5 segundos.
+5) Make the green ball go from the left edge to the right edge while the mouse is inside the <section> element of the exercise. The duration of the event must be 5 seconds.
 
-6) Faça a bola verde ir da direita para a esquerda enquanto o mouse estiver dentro do elemento <div id="exercise-6-square">. A duração do evento deve ser de 5 segundos.
+6) Make the green ball go from right to left while the mouse is inside the <div id = "exercise-6-square"> element. The duration of the event must be 5 seconds.
 
-7) Faça o quadrado azul aumentar a largura até o tamanho do box do exercício e voltar ao tamanho original infinitas vezes com o tempo de 10 segundos de duração.
+7) Make the blue square increase the width to the size of the exercise box and return to the original size infinite times with a time of 10 seconds.
 
-8) Altere a cor do quadrado vermelho para amarelo em um tempo de 4 segundos de duração.
+8) Change the color of the red square to yellow in a time of 4 seconds in duration.
 
-9) Altere a cor do quadrado vermelho para amarelo, azul e verde em um tempo de 4 segundos de duração por infinitas vezes. Faça a alteração das cores na ordem inversa também.
+9) Change the color of the red square to yellow, blue and green in a time of 4 seconds of duration for infinite times. Change the colors in reverse order as well.
 
-10) Combine as animações número 7 e número 9 no quadrado vermelho.
+10) Combine animations number 7 and number 9 in the red square.
 
-11) Neste exercício, você possui 5 quadrados (vermelho, azul, verde, amarelo e preto). Todos eles devem se mover da borda esquerda para a direita ao longo de 3 segundos. Esta animação deve iniciar depois de 2 segundos do carregamento da página e deve durar infinitamente. Você deve alterar a velocidade dos quadrados conforme a seguinte regra:
+11) In this exercise, you have 5 squares (red, blue, green, yellow and black). They should all move from the left edge to the right over 3 seconds. This animation should start after 2 seconds of loading the page and should last forever. You must change the speed of the squares according to the following rule:
 
-12) O quadrado vermelho deve ter uma velocidade linear (constante);
-O quadrado azul deve iniciar o movimento de forma lenta, depois acelerar e finalizar de forma lenta;
-O quadrado verde deve iniciar o movimento de forma lenta;
-O quadrado amarelo deve finalizar o movimento de forma lenta;
-O quadrado preto deve iniciar e finalizar o movimento de forma lenta;
-Ao ser clicado (e o click ser mantido pressionado) faça o quadrado preto desaparecer ao longo de 1 segundo. Depois de desaparecer completamente, ele não deve mais reaparecer.
+12) The red square must have a linear (constant) speed;
+The blue square should start moving slowly, then accelerate and end slowly;
+The green square should start moving slowly;
+The yellow square should end the movement slowly;
+The black square should start and end the movement slowly;
+When clicked (and the click is held down) make the black square disappear over 1 second. After disappearing completely, it should not reappear.
