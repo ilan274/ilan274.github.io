@@ -90,6 +90,34 @@ section {
   -webkit-animation: boxAndBack 4s infinite, multipleColors 4s infinite;
 }
 
+#exercise-11_1,
+#exercise-11_2,
+#exercise-11_3,
+#exercise-11_4,
+#exercise-11_5 {
+  animation: leftToRight 3s 2s infinite;
+}
+
+#exercise-11_1 {
+  animation-timing-function: linear;
+}
+
+#exercise-11_2 {
+  animation-timing-function: ease-in-out;
+}
+
+#exercise-11_3 {
+  animation-timing-function: ease-in;
+}
+
+#exercise-11_4 {
+  animation-timing-function: ease-out;
+}
+
+#exercise-11_5 {
+  animation-timing-function: ease-in-out;
+}
+
 @keyframes leftToRight {
   from {
     margin-left: 0;
