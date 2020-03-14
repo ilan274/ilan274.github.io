@@ -58,10 +58,15 @@ section {
   animation: leftToRight 2s 2s forwards;
 }
 
+#exercise-3 {
+  animation: leftToRight 2s 1s 2 alternate;
+}
+
 @keyframes leftToRight {
   from {
     margin-left: 0;
-  } to {
+  }
+  to {
     margin-left: 95%;
   }
 }
