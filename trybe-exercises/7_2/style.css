@@ -70,11 +70,24 @@ section {
   animation: leftToRight 5s infinite;
 }
 
+#exercise-6-square:hover + #exercise-6 {
+  animation: rightToLeft 5s infinite alternate;
+}
+
 @keyframes leftToRight {
   from {
     margin-left: 0;
   }
   to {
     margin-left: 95%;
+  }
+}
+
+@keyframes rightToLeft {
+  from {
+    margin-right: 0%;
+  }
+  to {
+    margin-right: 91%;
   }
 }
