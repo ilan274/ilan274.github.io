@@ -63,7 +63,7 @@ section {
 }
 
 .exercise-4:hover #exercise-4 {
-  animation: leftToRight 5s;
+  animation: leftToRight 5s infinite;
 }
 
 @keyframes leftToRight {
