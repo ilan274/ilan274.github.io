@@ -74,6 +74,10 @@ section {
   animation: rightToLeft 5s infinite alternate;
 }
 
+#exercise-7 {
+  animation: boxAndBack 10s infinite;
+}
+
 @keyframes leftToRight {
   from {
     margin-left: 0;
@@ -89,5 +93,11 @@ section {
   }
   to {
     margin-right: 91%;
+  }
+}
+
+@keyframes boxAndBack {
+  50% {
+    padding: 0 50.5%;
   }
 }
