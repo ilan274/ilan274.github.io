@@ -29,4 +29,8 @@ figure {
 	body {
 		background-color: rgb(167, 224, 241);
 	}
+	
+	p {
+		font-size: 18px;
+	}
 }
