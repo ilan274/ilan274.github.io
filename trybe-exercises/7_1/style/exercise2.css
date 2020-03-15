@@ -62,6 +62,7 @@
 }
 
 #aside {
+  display: flex;
   float: right;
   width: 33%;
   padding: 20px 0;
@@ -81,8 +82,15 @@
   height: 1%;
 }
 
+
 @media print {
   #header, #navigation, #footer {
     display: none;
   }
+
+  #content-container {
+    display: flex;
+    flex-direction: column;
+  }
+
 }
