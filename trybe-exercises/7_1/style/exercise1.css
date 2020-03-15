@@ -24,3 +24,9 @@ img {
 figure {
 	margin: 0;
 }
+
+@media screen and (min-width: 440px) {
+	body {
+		background-color: rgb(167, 224, 241);
+	}
+}
