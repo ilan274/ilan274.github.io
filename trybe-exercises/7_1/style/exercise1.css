@@ -18,6 +18,9 @@ p {
 
 img {
 	max-width: 100%;
+}
+
+figcaption {
 	margin-bottom: 30px;
 }
 
@@ -28,9 +31,15 @@ figure {
 @media screen and (min-width: 440px) {
 	body {
 		background-color: rgb(167, 224, 241);
+		margin: 0 30px;
 	}
 	
 	p {
 		font-size: 18px;
 	}
+
+	.images {
+		column-count: 2;
+	}
+
 }
