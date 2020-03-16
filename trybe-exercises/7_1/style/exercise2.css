@@ -109,11 +109,20 @@
     width: 100%;
     height: auto;
   }
-  
+
+  #navigation {
+    margin-top: 90px;
+  }
+
   #navigation > ul > li {
     display: flex;
     flex-direction: column;
   }
 
-  li
+  #header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
 }
