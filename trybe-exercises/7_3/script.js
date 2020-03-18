@@ -10,12 +10,14 @@ const cartas = [
 ];
 
 function addAnotherCard() {
+  const efeitos = ['efeito1', 'efeito2']
   let createDiv = document.createElement('div');
-  createDiv.classList.add('carta');
+  createDiv.classList.add(efeitos[Math.floor(Math.random() * efeitos.length)]);
   let createImg = document.createElement('img');
-  createImg.src = './imgs/'+cartas[Math.floor(Math.random() * 7)];
+  createImg.src = './imgs/'+cartas[Math.floor(Math.random() * cartas.length)];
   createDiv.append(createImg)
   document.querySelector('.cartas').append(createDiv);
+  
   
 }
 

@@ -28,24 +28,52 @@ main {
   flex-wrap: wrap;
 }
 
-.carta {
-  width: 100px;
-  height: 150px;
-  border: none;
-  margin-bottom: 10px;
-}
-
-.carta {
-  margin-left: 10px;
-}
 
 .carta-principal > .carta {
-  margin: 0 auto 30px auto;
-  background: none;
   border: none;
+  margin: 0 auto 30px auto;
 }
 
 img {
   width: 100px;
   height: 150px;
+}
+
+.carta {
+  width: 100px;
+  height: 150px;
+  border: none;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.carta:hover {
+  /* transform: rotate(45deg); */
+}
+
+.efeito1 {
+  width: 100px;
+  height: 150px;
+  border: none;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  transition: transform 2s;
+}
+
+.efeito2 {
+  width: 100px;
+  height: 150px;
+  border: none;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  transition: all 400ms ease-in-out;
+
+}
+
+.efeito1:hover {
+  transform: rotate(360deg);
+}
+
+.efeito2:hover {
+  transform: scale(1.5);
 }
