@@ -1,9 +1,0 @@
-{
-  "editor.parameterHints.enabled": false,
-  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
-  "javascript.preferences.quoteStyle": "single",
-  "prettier.useEditorConfig": false,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "prettier.singleQuote": true,
-  "prettier.jsxSingleQuote": true
-}
