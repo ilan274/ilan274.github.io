@@ -1,4 +1,3 @@
-// First exercise
 const assert = require( 'assert' );
 // write solution below
 
