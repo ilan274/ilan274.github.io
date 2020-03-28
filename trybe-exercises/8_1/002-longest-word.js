@@ -1,19 +1,12 @@
-const assert = require( 'assert' );
+const assert = require('assert');
 
-const longestWord = words => {
-  const arrWords = words.split( ' ' );
-  let maxLength = 0;
-  let biggestWord = null;
+const firstTestPhrase = "Just writing some words to check if my function's working";
+const secondTestPhrase = "Hello, recruiiiiteeeer, (pls ignore those tests, if only to check my function) :)"
 
-  for ( let i = 0; i < arrWords.length; i += 1 ) {
-    if ( arrWords[i].length > maxLength ) {
-      maxLength = arrWords[i].length;
-      biggestWord = arrWords[i];
-    }
-  }
-  return `Biggest word is "${biggestWord}" with ${maxLength} characters`;
-};
+const maiorPalavra = (el => el.split(' ').reduce((acumulador, valoratual) => {
+  (valoratual.length > acumulador.length) ? acumulador = valoratual : acumulador = acumulador;
+  return `${acumulador}`;
+}, '0'));
 
-const phrase = "Just writing some words to check if my function's working";
 
-console.log( longestWord( phrase ) );
+console.log(maiorPalavra(secondTestPhrase));
