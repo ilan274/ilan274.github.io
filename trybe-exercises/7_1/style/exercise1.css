@@ -1,45 +1,91 @@
 body {
-	margin: 0 15px;
+  margin: 0 15px;
+  background-color: rgb(153, 255, 187);
 }
 
-h1 {
-	font-size: 30px;
+.main-title {
+  font-size: 30px;
+  margin: 20px 40px 30px 40px;
 }
 
 h2 {
-
+  margin-left: 180px;
 }
 
 p {
-	font-family: Courier New, Courier, monospace;
-	font-size: 16px;
-	letter-spacing: 1px;
+  font-family: Courier New, Courier, monospace;
+  font-size: 20px;
+  margin: 0 20px;
+}
+
+ol {
+  margin-left: 60px;
+  line-height: 30px;
+}
+
+li {
+  font-weight: 700;
+  color: blue;
+}
+
+.images {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.images div {
+  text-align: center;
 }
 
 img {
-	max-width: 100%;
+  width: 60%;
+  border-radius: 40px;
+  transition: transform 200ms;
+  border: black 1px solid;
 }
 
-figcaption {
-	margin-bottom: 30px;
+img:hover {
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
+  border: 0;
 }
 
 figure {
-	margin: 0;
+  margin-bottom: 40px;
 }
 
-@media screen and (min-width: 440px) {
-	body {
-		background-color: rgb(167, 224, 241);
-		margin: 0 30px;
-	}
-	
-	p {
-		font-size: 18px;
-	}
+.row {
+  display: flex;
+  flex-direction: row;
+}
 
-	.images {
-		column-count: 2;
-	}
+.column {
+  display: flex;
+  flex-direction: column;
+}
 
+figure {
+  margin: 0 0 80px 0;
+}
+
+@media screen and (min-width: 375px) and (max-width: 600px) {
+  body {
+    background-color: rgb(167, 224, 241);
+    margin: 0 10px;
+  }
+
+  .main-title {
+    font-size: 26px;
+  }
+
+  p {
+    font-family: monospace;
+    line-height: 120%;
+    font-size: 18px;
+  }
+
+  .images {
+    column-count: 1;
+  }
 }
