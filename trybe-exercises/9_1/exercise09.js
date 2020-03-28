@@ -68,7 +68,7 @@ const expected_result = 'O Senhor dos Anéis';
 // Write your code below
 
 const authorWith3DotsOnName = () => {
-  let re = /([A-Z]{1}\.)+\s([A-Z]{1}\.)+\s([A-Z]{1}\.)/i;
+  let re = /^([A-Z]{1}\.)+\s([A-Z]{1}\.)+\s([A-Z]{1}\.)/i;
   const filtrado = books.find((element) => re.test(element.author.name));
   return filtrado.name;
 };
