@@ -1,4 +1,5 @@
 const exercise001 = require('./001-jest_exercises');
+const exercise002 = require('./002-jest_exercises');
 
 describe('Exercise 01 tests', () => {
   test('Numbers and strings sum', () => {
@@ -11,6 +12,9 @@ describe('Exercise 01 tests', () => {
   });
 });
 
-// assert(sum(4, 5) === 9, '4 + 9 equals 9');
-// assert(sum(0, 0) === 0, '0 + 0 equals 0');
-// assert(sum(0, 0) === 0, '0 + 0 equals 0');
+
+describe('Exercise 02 tests', () => {
+  test('Numbers and strings sum', () => {
+    expect(exercise002([1, 2, 3, 4], 3)).toBe(2);
+  });
+});
