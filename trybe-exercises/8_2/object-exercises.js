@@ -42,8 +42,6 @@ const getNumberOfStudents = (obj) => {
 const getValueByNumber = (obj, i) => Object.values(lesson3)[i];
 
 const verifyPair = (obj, key, value) => {
-  if (obj.hasOwnProperty(key)) {
-    return obj[key] === value;
-  }
+  if (obj.hasOwnProperty(key)) return obj[key] === value;
   return false;
 };
