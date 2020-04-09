@@ -42,7 +42,8 @@ const getNumberOfStudents = (obj) => {
 const getValueByNumber = (obj, i) => Object.values(lesson3)[i];
 
 const verifyPair = (obj, key, value) => {
-  return 
-}
-
-// Usando o objeto criado no exercício 5, crie uma função que retorne o número total de estudantes em todas as aulas.
+  if (obj.hasOwnProperty(key)) {
+    return obj[key] === value;
+  }
+  return false;
+};
