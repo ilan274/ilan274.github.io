@@ -9,6 +9,5 @@ const myIndexOf = (arr, item) => {
   }
   return searchedIndex;
 };
-console.log(myIndexOf([1, 2, 3, 4], 4));
 
-module.exports = myIndexOf;
+module.exports = { myIndexOf };
