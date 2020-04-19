@@ -15,13 +15,30 @@ describe('String to uppercase', () => {
   });
 });
 
-describe('Database tests', () => {
+describe('Promise database tests', () => {
   it('Case id exists', () => {
     ex002.findUserById(4)
-    .then(data => expect(data.name).toEqual('Mark'))
-  })
+      .then(data => expect(data.name).toEqual('Mark'));
+  });
   it('Case id is false', () => {
     ex002.findUserById(1)
-    .catch(data => expect(data.error).toEqual('User with 1 not found.'))
-  })
-})
+      .catch(data => expect(data.error).toEqual('User with 1 not found.'));
+  });
+});
+
+describe('Async/Await database tests', () => {
+  it('Case is exists', async () => {
+    const response = await ex002.findUserById(4);
+    const data = await response.name;
+    expect(data).toEqual('Mark');
+  });
+  it('Case is false', async () => {
+    try {
+      const response = await ex002.findUserById(1);
+      const data = await response.name;
+    } catch (error) {
+      const err = { error: "User with 1 not found." };
+      expect(error).toEqual(err);
+    }
+  });
+});
