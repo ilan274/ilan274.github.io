@@ -1,6 +1,6 @@
 [English - Portuguese]
 
-# Welcome to the Task List project repository!
+# Welcome to the Task List project folder!
 
 ## What should be developed
 
@@ -63,7 +63,7 @@ Important points about this bonus requirement:
 ----
 ----
 
-# Boas vindas ao repositório do projeto Lista de Tarefas!
+# Boas vindas à pasta do projeto Lista de Tarefas!
 
 ## O que deverá ser desenvolvido
 

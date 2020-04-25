@@ -1,0 +1,75 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(204, 204, 204);
+}
+
+.example-images {
+  background-color: yellowgreen;
+  border: green 4px dotted;
+  float: right;
+  height: 45vh;
+  list-style-type: none;
+  margin-right: 40px;
+}
+
+.example-images img {
+  cursor: pointer;
+  margin: 0;
+  margin-top: 20px;
+  padding: 0;
+  width: 100px;
+}
+
+li {
+  display: inline-block;
+}
+
+p {
+  margin: 0 auto;
+  overflow-wrap: break-word;
+  position: absolute;
+  text-align: center;
+}
+
+div {
+  background-color: white;
+  border: solid 1px black;
+  height: 300px;
+  margin: 0 auto;
+  position: relative;
+  width: 400px;
+}
+
+.imagem-principal {
+  height: 300px;
+  width: 400px;
+}
+
+.buttons {
+  left: 50px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 20px;
+  text-align: center;
+  width: 350px;
+}
+
+button {
+  background-color: #4caf50;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px 10px;
+}
+
+h2 {
+  text-align: center;
+}
+
+form {
+  margin: 0 auto;
+  text-align: center;
+}

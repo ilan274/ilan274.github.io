@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <script defer src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script defer src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script defer src="https://use.fontawesome.com/8772986df4.js"></script>
+  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <main class="top-bar">
+      <section>
+        <h4 class="facebook-logo">facebook</h4>
+      </section>
+      <section class="autenticacao">
+        <div>
+          <p id="user-email-phone-label">Email ou telefone</p>
+          <input size="14" type="text" name="login" id="user-email-phone">
+        </div>
+        <div>
+          <p id="user-email-phone-label">Email ou telefone</p>
+          <input size="14" id="user-password" type="password" name="psw">
+          <button class="button-login" id="button-login">Entrar</button>
+        </div>
+      </section>
+    </main>
+  </header>
+  <div class="principal">
+    <aside>
+      <p>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
+      <img src="./images/networking.png" alt="facebook-networking" id="facebook-networking">
+    </aside>
+    <form>
+      <span>Abra uma conta</span>
+      <br>
+      <span>É rápido e fácil.</span>
+      <div class="usuarioESenha">
+        <input class="inputPadrao" type="text" placeholder="Nome">
+        <input class="inputPadrao" type="text" placeholder="Sobrenome">
+      </div>
+      <input class="celularOuEmail" type="text" placeholder="Celular ou email">
+      <input class="novaSenha" type="password" placeholder="Nova senha">
+      <p class="dataDeNascimento">Data de nascimento</p>
+      <input type="text" placeholder="dd/mm/aaaa" class="inputPadrao" id="datepicker">
+      <p class="genero">Gênero</p>
+      <div class="generoDiv">
+        <label for="feminino">
+          <input type="radio" id="Feminino" name="orientacao" value="Feminino">
+          Feminino</label>
+        <label for="masculino">
+          <input type="radio" id="Masculino" name="orientacao" value="Masculino">
+          Masculino</label>
+        <label for="personalizado">
+          <input type="radio" id="Personalizado" name="orientacao" value="Personalizado">
+          Personalizado</label>
+      </div>
+      <br><button class="facebook-register" id="facebook-register" type="submit">Cadastre-se</button>
+    </form>
+  </div>
+  <footer class="pageFooter">
+    <ul>
+      <li>Português (Brasil)</li>
+      <li>English (US)</li>
+      <li>Español</li>
+      <li>Français (France)</li>
+      <li>Italiano</li>
+      <li>Deutsch</li>
+      <li>العربية</li>
+      <li>हिन्दी</li>
+      <li>中文(简体)</li>
+      <li>日本語</li>
+    </ul>
+    <div class="contentLine"></div>
+    <ul>
+      <li>Cadastre-se</li>
+      <li>Entrar</li>
+      <li>Messenger</li>
+      <li>Facebook Lite</li>
+      <li>Watch</li>
+      <li>Pessoas</li>
+      <li>Páginas</li>
+      <li>Categorias de Página</li>
+      <li>Locais</li>
+      <li>Jogos</li>
+      <li>Locais</li>
+      <li>Marketplace</li>
+      <li>Grupos</li>
+      <li>Instagram</li>
+      <li>Local</li>
+      <li>Campanhas de arrecadação de fundos</li>
+      <li>Serviços</li>
+      <li>Sobre</li>
+      <li>Criar anúncio</li>
+      <li>Criar Página</li>
+      <li>Desenvolvedores</li>
+      <li>Carreiras</li>
+      <li>Privacidade</li>
+      <li>Cookies</li>
+      <li>Opções de anúncio</li>
+      <li>Termos</li>
+      <li>Ajuda</li>
+    </ul>
+  </footer>
+</body>
+</html>

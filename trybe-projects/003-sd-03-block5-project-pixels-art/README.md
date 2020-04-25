@@ -1,6 +1,6 @@
 [English - Portuguese]
 
-# Welcome to the Pixels Art project repository!
+# Welcome to the Pixels Art project folder!
 
 ## Project requirements
 
@@ -79,7 +79,7 @@ Remember that the black color still needs to be present and should be the first 
 ----
 ----
 
-# Boas vindas ao repositório do projeto de Arte com Pixels!
+# Boas vindas à pasta do projeto de Arte com Pixels!
 
 ## Requisitos do projeto
 

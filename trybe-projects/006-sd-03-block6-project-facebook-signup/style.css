@@ -1,0 +1,235 @@
+body {
+  line-height: 1.34;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #3b5998;
+  background-image: linear-gradient(#4e69a2, #3b5998 50%);
+  height: 82px;
+  position: relative;
+  z-index: 1;
+}
+
+.top-bar {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.facebook-logo {
+  color: white;
+  font-size: 35px;
+  left: 0;
+  margin: 0;
+  margin-right: 100px;
+  margin-top: 10px;
+}
+
+header p {
+  color: white;
+  display: flex;
+  font-size: 12px;
+  justify-content: space-between;
+  margin-bottom: 1px;
+  padding-bottom: 1px;
+  padding-left: 1px;
+}
+
+.top-bar input {
+  border: 1px solid black;
+  padding-left: 10px;
+}
+
+.autenticacao {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.autenticacao div:nth-child( 1 ) {
+  margin-right: 20px;
+}
+
+.autenticacao div:nth-child( 2 ) {
+  margin-right: 20px;
+}
+
+.button-login {
+  background-color: #4966a5;
+  border: 1px #4b4f56 solid;
+  color: white;
+  font-weight: 700;
+}
+
+.principal {
+  background: linear-gradient(white, #d3d8e8);
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  justify-content: space-between;
+  margin-top: 2%;
+}
+
+.principal > aside {
+  margin-left: 15%;
+}
+
+.principal > form {
+  margin-right: 15%;
+}
+
+aside p {
+  color: #0e384b;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 29px;
+  margin-top: 10px;
+  width: 450px;
+  word-spacing: -1px;
+}
+
+aside img {
+  height: 195px;
+  width: 537px;
+}
+
+form span:first-child {
+  color: #333;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+form span:nth-of-type( 2 ) {
+  color: #1d2129;
+  font-size: 19px;
+}
+
+form .usuarioESenha {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 4;
+  justify-content: space-between;
+  margin: 0;
+  width: 370px;
+}
+
+form .usuarioESenha input {
+  margin: 5px;
+  padding: 10px;
+}
+
+.celularOuEmail {
+  border: 1px solid #bdc7d8;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px 220px 10px 10px;
+}
+
+.novaSenha {
+  border: 1px solid #bdc7d8;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px 220px 10px 10px;
+}
+
+.pageFooter {
+  height: 200px;
+  margin: 0 auto;
+  padding-top: 8px;
+  width: 980px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contentLine {
+  border-bottom: 1px solid #dddfe2;
+  font-size: 1px;
+  height: 8px;
+  margin-bottom: 8px;
+}
+
+.pageFooter li {
+  color: #385898;
+  cursor: pointer;
+  font-size: 12px;
+  line-height: 1.34;
+  margin-left: 5px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.dataDeNascimento {
+  color: #90949c;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.34;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+.genero {
+  color: #90949c;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.34;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+.generoDiv {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.generoDiv label input {
+  color: #1d2129;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  padding: 0 10px 0 3px;
+  vertical-align: initial;
+}
+
+.generoDiv label {
+  margin-right: 10px;
+}
+
+.facebook-register {
+  background-color: #69a74e;
+  border: 1px solid;
+  border-color: #3b6e22 #3b6e22 #2c5115;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 1px #a4e388;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 126%;
+  margin: 10px 0;
+  min-width: 194px;
+  padding: 7px 20px;
+  position: relative;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.inputPadrao {
+  border: 1px solid #bdc7d8;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px 20px 10px 10px;
+}

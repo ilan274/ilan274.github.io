@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <section>
+      <header>
+        <h2>Meme generator</h2>
+      </header>
+      <br />
+      <form>
+        <input
+          id="text-input"
+          type="text"
+          placeholder="Type your meme text here"
+          maxlength="60"
+        /><br /><br />
+        <label for="meme-insert" style="cursor: pointer;">Select image</label>
+      </form>
+      <br />
+      <input
+        type="file"
+        accept="image/*"
+        name="image"
+        id="meme-insert"
+        onchange="loadFile(event)"
+        style="display: none;"
+      />
+      <div id="meme-image-container">
+        <p id="meme-text"></p>
+        <img id="meme-image" class="imagem-principal" />
+      </div>
+    </section>
+    <aside>
+      <section class="buttons">
+        <h3>Border style :)</h3>
+        <button id="button1">Style 1</button>
+        <button id="button2">Style 2</button>
+        <button id="button3">Style 3</button>
+      </section>
+    </aside>
+    <aside class="example-images">
+      <p>Some images to choose as example:</p>
+      <li>
+        <img id="meme-1" src="./imgs/meme1.jpeg" alt="First meme to choose" />
+      </li>
+      <li>
+        <img id="meme-2" src="./imgs/meme2.jpeg" alt="Second meme to choose" />
+      </li>
+      <li>
+        <img id="meme-3" src="./imgs/meme3.jpeg" alt="Third meme to choose" />
+      </li>
+      <li>
+        <img id="meme-4" src="./imgs/meme4.jpeg" alt="Fourth meme to choose" />
+      </li>
+    </aside>
+  </body>
+</html>
