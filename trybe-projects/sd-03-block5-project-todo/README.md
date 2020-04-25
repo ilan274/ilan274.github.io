@@ -1,8 +1,69 @@
+[English - Portuguese]
+
+# Welcome to the Task List project repository!
+
+## What should be developed
+
+In this project, you will implement a task list.
+An application that allows the person using it to add tasks, mark them as completed and clear all or just those that have been completed.
+
+Below you can see an example of a task list.
+Use this example as a reference.
+You will be able to style your project the way you want as long as all requirements are met.
+Use your imagination!
+
+! [] (todo-list-example.gif)
+
+## Project requirements
+
+### 1 - Your list should have the title "My Task List" in a `<header>` tag. This title does not vary according to the content of the list. Do not confuse this title with the page title, which should appear inside the `head`_ tag.
+
+### 2 - Below the title, there should be a small and discreet paragraph with `id =" operation "` and with the text "Double click on an item to mark it as complete" explaining the operation of the list to the user.
+
+### 3 - There must be an `input` with` id = "task text" `where the user can type the name of the item he wants to add to the list.
+
+### 4 - There should be an ordered list of tasks with `id =" task list "`.
+
+### 5 - There should be a button with `id =" create task "` and when clicking this button, a new item must be created at the end of the list and the text of the input must be cleared.
+
+### 6 - The items in the task list must be ordered in order of creation.
+
+### 7 - When hovering over any button, the mouse icon should change to a little hand pointing it.
+
+### 8 - When clicking on an item in the list, change the background color of the item to rRGBgray (128,128,128).
+
+### 9 - When double-clicking on an item, it should be crossed out, indicating that it was complete. It should be possible to undo this action by double-clicking the item again.
+
+    Important points about this requirement:
+
+    * Create a CSS class with the name "completed" and set the "text-decoration" property to the value "line-through".
+
+    * Use the CSS class "completed" to add the strikethrough effect to the completed tasks.
+
+### 10 - There should be a button with `id ="delete-everything"` that when clicked should delete all items from the list.
+
+### 11 - There should be a button`id = "remove-finalized" `that when clicked removes ** only ** the finished elements from your list.
+
+## BONUS
+
+### 1 - Add a button with `id ="save tasks"` that saves the contents of the list. If you close and reopen the page, the list should continue as it was. Tip: Read about _Local Storage_ in the additional resources section.
+
+### 2 - How your list is ordered, what happens if you forget an item? You would have to delete the list and start all over again, as you can only insert one item at the end, right? Add two buttons, one with `id ="move-up"` and another with `id ="move-down"`, which allows you to move the selected item up or down in the task list.
+
+Important points about this bonus requirement:
+
+* Before starting to develop this functionality, stop and think. What does it mean to move an item in a list up or down in ** _ DOM _ **? You already have all the skills necessary to do this.
+
+* Get used to thinking about special cases when building programs. What happens if the user tries to move the first item up or the last item down?
+
+### 3 - Add a button with `id ="remove-selected"` which, when clicked, removes the selected item.
+
+----
+----
+----
+----
+
 # Boas vindas ao repositório do projeto Lista de Tarefas!
-
-Você já usa o GitHub diariamente para desenvolver os exercícios, certo? Agora, para desenvolver os projetos, você deverá seguir as instruções a seguir. Fique atento a cada passo e, se tiver qualquer dúvida, nos envie por _Slack_! #vqv 🚀
-
-Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto a partir deste repositório, utilizando uma branch específica e um _Pull Request_ para colocar seus códigos.
 
 ## O que deverá ser desenvolvido
 
@@ -16,29 +77,7 @@ Use sua imaginação!
 
 ![](todo-list-example.gif)
 
----
-
-## Entregáveis
-
-Para entregar o seu projeto você deverá criar um _Pull Request_ para este repositório no **GitHub**.
-
-Este _Pull Request_ deverá conter, necessariamente, os arquivos `index.html`, `style.css` e `script.js`, que conterão seu código **_HTML_**, **_CSS_** e **_JavaScript_**, respectivamente. ⚠️ É importante que seus arquivos tenham exatamente estes nomes! ⚠️
-
-Você pode adicionar outros arquivos se julgar necessário.
-
----
-
 ## Requisitos do projeto
-
-A seguir, estão listados todos os requisitos do projeto. Leia-os atentamente e siga à risca o que for pedido.
-Em particular, atente-se para os nomes de classes e ids que alguns elementos de seu projeto devem possuir.
-**Não troque ids por classes ou vice-versa**.
-O não cumprimento de um requisito, total ou parcialmente, impactará em sua avaliação.
-
-Você tem liberdade para adicionar novos comportamentos ao seu projeto, seja na forma de aperfeiçoamentos em requisitos propostos ou novas funcionalidades, **desde que tais comportamentos adicionais não conflitem com os requisitos propostos**.
-Em outras palavras, você pode fazer mais do que foi pedido, mas nunca menos.
-Contudo, tenha em mente que **nada além do que foi pedido nos requisitos será avaliado**.
-Esta é uma oportunidade de você exercitar sua criatividade e experimentar os conhecimentos adquiridos.
 
 ### 1 - Sua lista deve possuir o título "Minha Lista de Tarefas" em uma tag `<header>`. Esse título não varia de acordo com o conteúdo da lista. _Não confunda esse título com o título da página, que deve aparecer dentro da tag `head`_.
 
@@ -74,86 +113,12 @@ Esta é uma oportunidade de você exercitar sua criatividade e experimentar os c
 
 ### 2 - Como sua lista é ordenada, o que acontece se você esquecer de um item? Você teria que apagar a lista e começar tudo de novo, pois só é possível inserir um item no final, certo? Adicione dois botões, um com `id="mover-cima"` e outro com `id="mover-baixo"`, que permitam mover o item selecionado para cima ou para baixo na lista de tarefas.
 
-    Pontos importantes sobre este requisito bônus:
+Pontos importantes sobre este requisito bônus:
 
-    * Antes de começar a desenvolver essa funcionalidade, pare e pense. O que significa mover um item de uma lista para cima ou para baixo no **_DOM_**? Você já possui todas as habilidades necessárias para fazer isso.
+* Antes de começar a desenvolver essa funcionalidade, pare e pense. O que significa mover um item de uma lista para cima ou para baixo no **_DOM_**? Você já possui todas as habilidades necessárias para fazer isso.
 
-    * Habitue-se a pensar nos casos especiais ao construir programas. O que acontece se o usuário tentar mover o primeiro item para cima ou o último para baixo?
+* Habitue-se a pensar nos casos especiais ao construir programas. O que acontece se o usuário tentar mover o primeiro item para cima ou o último para baixo?
 
 ### 3 - Adicione um botão com `id="remover-selecionado"` que, quando clicado, remove o item selecionado.
 
----
-
-## Instruções para entregar seu projeto:
-
-### ANTES DE COMEÇAR A DESENVOLVER:
-
-1. Clone o repositório
-  * `git clone https://github.com/tryber/sd-03-block5-project-todo-list.git`.
-
-2. Crie uma branch a partir da branch `master`
-  * Verifique que você está na branch `master`
-    * Exemplo: `git branch`
-  * Se não estiver, mude para a branch `master`
-    * Exemplo: `git checkout master`
-  * Agora, crie uma branch onde você vai guardar os `commits` do seu projeto
-    * Você deve criar uma branch no seguinte formato: `nome-de-usuario-nome-do-projeto`
-    * Exemplo: `git checkout -b exemplo-todo-list-project`
-
-3. Adicione as mudanças necessárias para iniciar a implementação do seu projeto ao _stage_ do Git e faça um `commit`
-  * Verifique que as mudanças ainda não estão no _stage_
-    * Exemplo: `git status` (devem aparecer listados os arquivos modificados em vermelho)
-  * Adicione o novo arquivo ao _stage_ do Git
-      * Exemplo:
-        * `git add .` (adicionando todas as mudanças - _que estavam em vermelho_ - ao stage do Git)
-        * `git status` (devem aparecerer listados os arquivos modificados em verde)
-  * Faça o `commit` inicial
-      * Exemplo:
-        * `git commit -m 'iniciando o projeto. VAMOS COM TUDO :rocket:'` (fazendo o primeiro commit)
-        * `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
-
-4. Adicione a sua branch com o novo `commit` ao repositório remoto
-  * Usando o exemplo anterior: `git push -u origin exemplo-todo-list-project`
-
-5. Crie um novo `Pull Request` _(PR)_
-  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-03-block5-project-todo-list/pulls)
-  * Clique no botão verde _"New pull request"_
-  * Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
-  * Clique no botão verde _"Create pull request"_
-  * Adicione uma descrição para o _Pull Request_ e clique no botão verde _"Create pull request"_
-  * **Não se preocupe em preencher mais nada por enquanto!**
-  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-03-block5-project-todo-list/pulls) e confira que o seu _Pull Request_ está criado
-
-### DURANTE O DESENVOLVIMENTO
-
-* ⚠ **LEMBRE-SE DE CRIAR TODOS OS ARQUIVOS DENTRO DA PASTA COM O SEU NOME** ⚠
-
-* Faça `commits` das alterações que você fizer no código regularmente
-
-* Lembre-se de sempre após um (ou alguns) `commits` atualizar o repositório remoto
-
-* Os comandos que você utilizará com mais frequência são:
-  1. `git status` _(para verificar o que está em vermelho - fora do stage - e o que está em verde - no stage)_
-  2. `git add` _(para adicionar arquivos ao stage do Git)_
-  3. `git commit` _(para criar um commit com os arquivos que estão no stage do Git)_
-  4. `git push -u nome-da-branch` _(para enviar o commit para o repositório remoto na primeira vez que fizer o `push` de uma nova branch)_
-  5. `git push` _(para enviar o commit para o repositório remoto após o passo anterior)_
-
-### DEPOIS DE TERMINAR O DESENVOLVIMENTO
-
-Para **"entregar"** seu projeto, siga os passos a seguir:
-
-* Vá até a página **DO SEU** _Pull Request_, adicione a label de _"code-review"_ e marque seus colegas
-  * No menu à direita, clique no _link_ **"Labels"** e escolha a _label_ **code-review**
-  * No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**
-  * No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-03`
-
-Se ainda houver alguma dúvida sobre como entregar seu projeto, [aqui tem um video explicativo](https://vimeo.com/362189205).
-
-### REVISANDO UM PULL REQUEST
-
-⚠⚠⚠
-
-À medida que você e os outros estudantes forem entregando os projetos, vocês serão alertados **via Slack** para também fazer a revisão dos _Pull Requests_ dos seus colegas. Fiquem atentos às mensagens do _"Pull Reminders"_ no _Slack_!
-
-Use o material que você já viu sobre [Code Review](https://course.betrybe.com/real-life-engineer/code-review/) para te ajudar a revisar os projetos que chegaram para você.
+----
