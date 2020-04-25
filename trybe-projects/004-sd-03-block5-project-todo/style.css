@@ -1,0 +1,71 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 20px;
+  text-align: center;
+}
+
+button {
+  padding: 5px 15px;
+  cursor: pointer;
+  border-radius: 15px;
+  outline: none;
+  color: white;
+  font-weight: 700;
+}
+
+li {
+  cursor: pointer;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+  margin-top: 5px;
+  
+}
+
+.selected {
+  background-color: rgb(128, 128, 128);
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+section {
+  text-align: center;
+}
+
+li {
+  margin-left: 20%;
+  text-align: center;
+  width: 50%;
+  overflow-wrap: break-word;
+}
+
+#criar-tarefa {
+  background-color: green;
+}
+
+#apaga-tudo {
+  background-color: red;
+}
+
+.padrao {
+  background-color: rgb(0, 119, 255);
+}
+
+input {
+  padding: 3px 0;
+  border-radius: 2%;
+  -moz-box-shadow:    1px 1px 6px 2px #ccc;
+  -webkit-box-shadow: 1px 1px 6px 2px #ccc;
+  box-shadow:         1px 1px 6px 2px #ccc;
+}
+
+article {
+  border: black 0.5px solid;
+  padding: 2%;
+  margin: 1% 10% 0% 10%;
+}
