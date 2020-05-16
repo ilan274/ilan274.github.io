@@ -1,8 +1,12 @@
 .template {
   display: flex;
+  flex-direction: column;
+  border: 2px black solid;
   justify-content: center;
-  border: solid 2px black;
-  width: 400px;
-  border-radius: 50px;
-  margin: 8px 0 8px 0;
+  text-align: center;
+  flex-wrap: wrap;
+  margin: 20px;
+  height: 160px;
+  width: 160px;
+  border-radius: 10px;
 }
