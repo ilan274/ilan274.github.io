@@ -1,0 +1,8 @@
+.template {
+  display: flex;
+  justify-content: center;
+  border: solid 2px black;
+  width: 400px;
+  border-radius: 50px;
+  margin: 8px 0 8px 0;
+}

@@ -1,0 +1,9 @@
+.container {
+  background-color: aqua;
+  border-radius: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 900px;
+  justify-content: space-around;
+  margin: 0 auto;
+}
