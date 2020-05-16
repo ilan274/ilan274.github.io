@@ -2,10 +2,12 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-const task = ["Acordar", "Tomar café", "Escovar os dentes", "Ir trabalhar"];
+const task = ["Wake up", "Drink coffee", "Brush teeth", "Go to work"];
 
 const App = () => (
-  <ul>{task.map(val => <li>{val}</li>)}</ul>
+  <div className="container">
+    <ol>{task.map((val) => <li key={val}>{val}</li>)}</ol>
+  </div>
 );
 
 
